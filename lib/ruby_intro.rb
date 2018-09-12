@@ -2,11 +2,9 @@
 
 # Part 1
 def sum(arr)
-  # YOUR CODE HERE
   som = 0
-
   if arr.empty?
-    return "zero"
+    return 0
   else
     y = arr.length
     x = 0
