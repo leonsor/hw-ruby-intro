@@ -1,9 +1,21 @@
 # When done, submit this entire file to the autograder.
 
 # Part 1
-
-def sum arr
+def sum(arr)
   # YOUR CODE HERE
+  som = 0
+
+  if arr.empty?
+    return "zero"
+  else
+    y = arr.length
+    x = 0
+    while x < y
+      som = som + arr[x]
+      x = x + 1
+    end
+    return som
+  end
 end
 
 def max_2_sum arr
